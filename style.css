@@ -1,40 +1,38 @@
-/* Reset some default browser styles */
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #00b7ffd7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background-color: #000000d7;
+    #artist-list {
+        margin: 0px;
+        padding: 0px;
+        background-color: #019270;
+        border: 1px solid #ffffff;
+        justify-content: center;
+        border-radius: 15px;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    .artist-card {
+        background-color:lightcyan;
+        margin: 10px;
+        padding: 10px;
+    }
 }
 
 h1 {
     text-align: center;
-    background-color: #2350f4c0;
+    background-color: #01a409c0;
     color: #fff;
     padding: 30px;
 }
 
-data-container {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
- #artist-list {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #87cabd;
-    border: 1px solid #bafee2;
-    border-radius: 5px;
-}
-
 #spotify_logo{
     position: absolute;
-    top: -20px;
+    top: -10px;
     left: 0px;
     width: 130px;
     height: auto;   
@@ -74,6 +72,6 @@ img {
 
 @media (max-width: 1024px) {
     body {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
